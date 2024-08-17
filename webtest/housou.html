@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <meta name="desctiption" content="Are you ready?">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/sanitize.css">
+    <link rel="stylesheet" href="./css/housou.css">
+
+</head>
+
+<body>
+
+    <div class="hero">
+        <header>
+            <h2 class="logo">TEST</h2>
+            <i class="fa-solid fa-bars" id="menu-icon" onclick="showMenu()"></i>
+            <nav>
+                <i class="fa-solid fa-xmark" id="menu-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./housou.html" target="_blank">HOME</a></li>
+                    <li><a href="./about.html" target="_blank">ABOUT US</a></li>
+                    <li><a href="./course.html" target="_blank">COURSES</a></li>
+                    <li><a href="./blog.html" target="_blank">BLOG</a></li>
+                    <li><a href="./contact.html" target="_blank">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="header-content">
+            <h1>Welcome</h1>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum hic quod porro rem veritatis.
+                Laudantium amet magnam placeat unde, perspiciatis ipsa. Vel aperiam provident nam dolorem, libero
+                delectus sapiente iure?</p>
+            <a href="#" class="btn">お問い合わせ</a>
+        </div>
+    </div>
+
+    <section class="courses" id="courses">
+        <h2 class="heading">Courses We Offer</h2>
+        <p class="heading-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+        <div class="courses-content">
+            <div class="courses-box">
+                <h3>Intermediate</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam porro perspiciatis tempore fugit quo
+                    amet nihil soluta, pariatur quis aliquid! Voluptatum perspiciatis, at architecto quisquam nulla
+                    magnam temporibus eaque soluta.</p>
+            </div>
+            <div class="courses-box">
+                <h3>Degree</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque tempore odit fugiat inventore facilis
+                    quaerat corporis dicta, officia magnam, dolorem cum, eligendi voluptas consectetur magni! Hic sit
+                    deserunt sequi. Nobis!</p>
+            </div>
+            <div class="courses-box">
+                <h3>Post Graduation</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus assumenda accusantium sint provident
+                    illo qui voluptatem, quae id alias dolor accusamus. Commodi fugit voluptas culpa non molestiae earum
+                    error minus!</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="campus" id="campus">
+        <h3 class="heading">Our Global Campus</h3>
+        <p class="heading-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="campus-container">
+            <div class="campus-box">
+                <img src="./img/housou.jpg" alt="">
+                <div class="campus-layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-box">
+                <img src="./img/housou.jpg" alt="">
+                <div class="campus-layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+            <div class="campus-box">
+                <img src="./img/housou.jpg" alt="">
+                <div class="campus-layer">
+                    <h3>LONDON</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="facilities" class="facilities">
+        <h3 class="heading">Our Facilities</h3>
+        <p class="heading-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="facilities-container">
+            <div class="facilities-box">
+                <img src="./img/library.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-box">
+                <img src="./img/library.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="facilities-box">
+                <img src="./img/library.jpg" alt="">
+                <h3>World Class Library</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+    </section>
+
+    <section id="testmonials" class="testmonials">
+        <h3 class="heading">Our Student Says</h3>
+        <p class="heading-p">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="testmonials-container">
+            <div class="testmonials-box">
+                <img src="./img/graduate.png" alt="">
+                <div class="testmonials-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eaque assumenda tenetur
+                        praesentium sapiente minima dolorem deleniti consequatur?</p>
+                    <h3>Tom Harbar</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half-stroke"></i>
+                </div>
+            </div>
+            <div class="testmonials-box">
+                <img src="./img/graduate.png" alt="">
+                <div class="testmonials-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eaque assumenda tenetur
+                        praesentium sapiente minima dolorem deleniti consequatur?</p>
+                    <h3>Tom Harbar</h3>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="cta">
+        <div class="cta-content">
+            <h1>Enroll For Various Online Courses <br>
+                Anywhere From The World</h1>
+            <a href="#" class="btn">CONTACT US</a>
+        </div>
+    </section>
+
+    <footer>
+        <h3>About Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p class="Copyright">Copyright &copy; 2024 by @alejandoro | All Rights Reserved.</p>
+    </footer>
+
+    <script src="./js/housou.js"></script>
+</body>
+
+</html>
