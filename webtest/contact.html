@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/nikukyu.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/earlyaccess/nicomoji.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/sanitize.css">
+    <link rel="stylesheet" href="./css/housou.css">
+
+</head>
+
+<body>
+
+    <div class="sub-hero" id="about-hero">
+        <header>
+            <h2 class="logo">TEST</h2>
+            <i class="fa-solid fa-bars" id="menu-icon" onclick="showMenu()"></i>
+            <nav>
+                <i class="fa-solid fa-xmark" id="menu-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="./housou.html" target="_blank">HOME</a></li>
+                    <li><a href="./housou.html" target="_blank">ABOUT US</a></li>
+                    <li><a href="./course.html" target="_blank">COURSES</a></li>
+                    <li><a href="./blog.html" target="_blank">BLOG</a></li>
+                    <li><a href="./contact.html" target="_blank">CONTACT</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="sub-text">
+            <h1>Our Certificate & Online Programe For 2024</h1>
+        </div>
+    </div>
+
+    <section class="location">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6266.075261597395!2d140.867478475998!3d38.255433271868256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8a28153f895049%3A0x3012139893f6b637!2z5pS-6YCB5aSn5a2m5a6u5Z-O5a2m57-S44K744Oz44K_44O8!5e0!3m2!1sja!2sjp!4v1723704837784!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <section class="contact-us">
+        <div class="contact-container">
+            <div class="contact-col">
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span class="contact-info">
+                        <h5>XYZ Road ABC Building</h5>
+                        <p>Japan TOKYO</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span class="contact-info">
+                        <h5>XYZ Road ABC Building</h5>
+                        <p>Japan TOKYO</p>
+                    </span>
+                </div>
+                <div>
+                    <i class="fa-solid fa-house"></i>
+                    <span class="contact-info">
+                        <h5>XYZ Road ABC Building</h5>
+                        <p>Japan TOKYO</p>
+                    </span>
+                </div>
+            </div>
+            <form action="form-handler.php" method="post" class="contact-col">
+                <input type="text" name="name" placeholder="Enter your name">
+                <input type="email" name="email" placeholder="Enter email address">
+                <input type="text" name="subject" placeholder="Enter your subject">
+                <textarea name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                <button class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <h3>About Us</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <div class="social-media">
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        </div>
+        <p class="Copyright">Copyright &copy; 2024 by @alejandoro | All Rights Reserved.</p>
+    </footer>
+
+    <script src="./js/housou.js"></script>
+</body>
+
+</html>
